@@ -43,7 +43,12 @@ int gcd(int a, int b)
 }
 
 int main (int argc, char *argv[]) {
-    std::cout << "(48, 18) = GCD (" << gcd(48, 18) << ")\n";
-    std::cout << "(270, 192) = GCD (" << gcd(192,78) << ")\n";
+    std::cout << "(48, 18) = GCD (" << gcd(48, 18) << ")\n";  // output 6
+    std::cout << "(270, 192) = GCD (" << gcd(192,78) << ")\n"; // output 6
+    std::cout << "(35,18) = GCD (" << gcd(35,18) << ")\n"; // output 1 
+    std::cout << "(20, 12) = GCD (" << gcd(20, 12) << ")\n"; // output 4
+    std::cout << "(210, 45) = GCD (" << gcd(210, 45) << ")\n"; // output 15
+    std::cout << "(84, 126) = GCD (" << gcd(84, 126) << ")\n"; // output 42
+
     return 0;
 }
